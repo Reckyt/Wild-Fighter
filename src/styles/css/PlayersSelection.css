@@ -1,0 +1,42 @@
+.charsSelection {
+  background-image: url('../assets/texture.png');
+  /* background-image: url('../assets/newyorkFit.jpg'); */
+  color: white;
+  justify-content: center;
+  padding: 1%;
+  /* display: flex;
+  flex: 1 0 auto;
+  align-items: flex-start; */
+  background-size: cover;
+}
+
+.charsSelAndStats {
+  display: flex;
+  flex: 1 0 auto;
+  align-items: flex-start;
+}
+
+#vsLocation {
+  flex: 1;
+  height: 100%;
+  padding-top: 100%;
+  padding-bottom: 76%;
+  text-align: center;
+}
+
+#vsImage {
+  width: 8.5vw;
+  box-sizing: border-box;
+}
+
+.between_Players {
+  display: flex;
+  width: 10%;
+  flex-direction: column;
+  align-items: space-around;
+}
+
+#player1,
+#player2 {
+  width: 45%;
+}

@@ -1,0 +1,15 @@
+@font-face {
+  font-family: Kombat;
+  src: url('./styles/fonts/SSF4_ABUKET.ttf');
+}
+
+.buttonFight {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.App {
+  height: 100%;
+}

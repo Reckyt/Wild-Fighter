@@ -1,0 +1,63 @@
+.mappy {
+  display: flex;
+  height: 100%;
+  position: absolute;
+}
+.onlyMap {
+  display: flex;
+}
+.gifSelect {
+  display: flex;
+}
+.citiesMap {
+  display: flex;
+  position: relative;
+  padding-top: 56%;
+}
+button {
+  display: inline;
+  flex-flow: column wrap;
+  padding: 12px;
+  margin: 5px;
+  margin-left: 0;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.single-flag {
+  display: flex;
+  position: absolute;
+  width: 15%;
+  height: 17%;
+  top: 80%;
+  left: 42%;
+}
+#selectMap {
+  display: flex;
+  position: absolute;
+  top: 70%;
+  left: 4%;
+  width: 20%;
+}
+.map {
+  width: 100%;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  object-fit: cover;
+}
+.mapButtonSelection {
+  display: flex;
+  flex-direction: column;
+}
+.mapButton {
+  display: flex;
+  padding-top: 10%;
+}
+#mapSelection {
+  display: flex;
+  position: absolute;
+}
+
+@media screen and (max-width: 900px), (max-height: 700px) {
+}

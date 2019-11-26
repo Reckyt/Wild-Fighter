@@ -1,0 +1,22 @@
+@font-face {
+  font-family: fightFont;
+  src: url('../../fonts/SSF4_ABUKET.ttf');
+}
+
+.count-button {
+  justify-content: center;
+  background-color: rgb(218, 8, 8);
+  text-align: center;
+  font-family: fightFont;
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  border: 2px solid rgb(252, 236, 16);
+  border-radius: 90px;
+  width: 11vmin;
+  height: 20vmin;
+  position: sticky;
+  block-size: auto;
+  padding-top: 20px;
+  left: 10px;
+}

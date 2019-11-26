@@ -1,0 +1,21 @@
+.tap {
+  display: none;
+}
+
+@media screen and (max-width: 700px) {
+  .tap {
+    display: flex;
+    justify-content: center;
+    border: solid 0.5vh black;
+    border-radius: 50%;
+    background: transparent;
+    width: 10vh;
+    height: 5vw;
+    color: yellow;
+    font-size: 5vh;
+    font-family: Kombat;
+    position: sticky;
+    margin-top: 10vh;
+    margin-left: 10vh;
+  }
+}

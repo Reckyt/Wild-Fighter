@@ -1,0 +1,113 @@
+.fightMap {
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  /* display: none; */
+}
+
+.fighters {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.leftPlayer {
+  margin-top: 4vh;
+  display: flex;
+  justify-content: center;
+}
+
+.rightPlayer {
+  margin-top: 4vh;
+  display: flex;
+  justify-content: center;
+}
+
+.fighter1 {
+  height: 50vh;
+  position: sticky;
+  margin-top: 40vh;
+}
+
+.fighter2 {
+  height: 50vh;
+  position: sticky;
+  margin-top: 40vh;
+}
+
+.winnerIs {
+  font-family: kombat;
+  color: red;
+  font-size: 8vh;
+  background-color: transparent;
+}
+
+.position1Win {
+  display: flex;
+  position: absolute;
+  z-index: 100;
+  top: 30vh;
+  left: 10vw;
+}
+
+.position2Win {
+  display: flex;
+  position: absolute;
+  z-index: 100;
+  top: 30vh;
+  left: 70vw;
+}
+
+.EndFightButton {
+  display: inline-flexbox;
+  flex-direction: row;
+}
+
+.coin {
+  display: flex;
+  background-color: transparent;
+  top: 10vh;
+  left: 40vw;
+  width: 8%;
+  height: 20%;
+  position: absolute;
+}
+
+.slot {
+  display: flex;
+  top: 40vh;
+  right: 50vw;
+  position: absolute;
+}
+
+.texteDeFin {
+  position: absolute;
+  font-family: kombat;
+  font-size: 30px;
+  color: rgb(26, 25, 23);
+}
+
+.positionNone {
+  display: none;
+}
+
+.tap {
+  display: none;
+}
+
+.containerFin {
+  display: flex;
+  flex-direction: row;
+  /* position: absolute; */
+}
+
+@media screen and (max-width: 640px) {
+  .tap {
+    display: block;
+  }
+
+  .slot {
+    width: 24%;
+  }
+}

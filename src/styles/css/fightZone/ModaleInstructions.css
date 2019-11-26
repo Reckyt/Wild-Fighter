@@ -1,0 +1,53 @@
+@font-face {
+  font-family: instructions;
+  src: url('../../fonts/KozMinPr6N-Regular.otf');
+}
+
+.modale_open {
+  display: flex;
+  justify-content: center;
+}
+
+.modal_close {
+  display: none;
+}
+
+.rouleau {
+  position: absolute;
+  width: 30vw;
+  height: 75vh;
+}
+
+.rouleau_close {
+  display: none;
+}
+
+.instructions {
+  position: absolute;
+  margin-top: 10vh;
+  font-family: kombat;
+  text-align: center;
+  width: 30vw;
+}
+
+.instructions div h2 {
+  margin: 3vh;
+  font-size: calc(1em + 0.5vw);
+}
+
+.instructions ul p {
+  margin: 3vh;
+  font-size: calc(2vh + 1vh);
+}
+
+.instructions_close {
+  display: none;
+}
+
+button {
+  background: transparent;
+  border: none;
+  color: red;
+  font-family: kombat;
+  font-size: 5vh;
+}

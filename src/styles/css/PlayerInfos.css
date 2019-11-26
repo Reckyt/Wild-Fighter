@@ -1,0 +1,100 @@
+.selectedChar {
+  display: flex;
+  flex: 3;
+  align-content: center;
+}
+
+.charPics {
+  width: 22vw;
+  height: 23.7vw;
+  object-fit: cover;
+  border-radius: 5%;
+  padding: 1%;
+}
+
+.nameChar {
+  font-family: Kombat;
+  text-align: center;
+  font-size: 2vw;
+  /* margin-bottom: 10vh; */
+}
+
+.charInfos {
+  width: 50%;
+  /* text-align: left; */
+  color: lightgrey;
+  padding: 1vw;
+}
+
+.statBarsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.statBarsContainer p {
+  font-style: italic;
+  font-size: 1.5vw;
+  color: white;
+}
+
+.emptyStatBar {
+  width: 100%;
+  height: 1vw;
+  border: solid white 1px;
+  /* background-color: lightgrey; */
+  background: linear-gradient(#3da302, rgb(117, 117, 117) 1%, lightgrey 60%);
+  border-radius: 1vh;
+  margin: 1vw 0 2vw 0;
+}
+
+.barAnim {
+  transition: width 0.5s;
+}
+
+#strengthBarChar {
+  width: 25%;
+  height: 100%;
+  background: linear-gradient(#d85a06, #f0d6ca 1%, #d85a06 60%);
+  border-radius: 1vh;
+}
+
+#defBarChar {
+  width: 75%;
+  height: 100%;
+  background: linear-gradient(#3da302, #cfe4c3 1%, #3da302 60%);
+  border-radius: 1vh;
+}
+
+.miniPic {
+  height: 7vw;
+  width: 6.5vw;
+  padding: 0.2vw;
+  border-radius: 10%;
+  object-fit: cover;
+  transition-duration: content 2s;
+  filter: grayscale(80%);
+  transition: filter 0.3s;
+}
+
+.miniSelected {
+  border: 2px solid rgb(255, 196, 0);
+  transition: border 0.5s;
+}
+
+.miniPic:hover {
+  filter: grayscale(0%);
+  transition: filter 0.3s;
+}
+
+.rev {
+  flex-direction: row-reverse;
+  text-align: right;
+}
+
+.revBar {
+  float: right;
+}
+
+/* token: 10156616570523372 */
